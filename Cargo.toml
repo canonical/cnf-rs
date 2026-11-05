@@ -1,0 +1,20 @@
+[package]
+name = "cnf-rs"
+version = "0.0.1"
+edition = "2024"
+description = "Rust implementation of the cnf configuration file format (spec 1.0rc1)."
+license = "Apache-2.0"
+repository = "https://github.com/canonical/cnf-rs"
+keywords = ["cnf", "config", "configuration"]
+categories = ["config", "parser-implementations"]
+
+[dev-dependencies]
+regex = "1"
+serde_json = "1"
+
+[[bench]]
+name = "bench"
+harness = false
+
+[dependencies]
+
