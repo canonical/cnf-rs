@@ -1,8 +1,8 @@
 [package]
 name = "cnf-rs"
-version = "0.0.1"
+version = "0.0.2"
 edition = "2024"
-description = "Rust implementation of the cnf configuration file format (spec 1.0rc1)."
+description = "Rust support for the cnf configuration file format."
 license = "Apache-2.0"
 repository = "https://github.com/canonical/cnf-rs"
 keywords = ["cnf", "config", "configuration"]
